@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #006d63;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.filtro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.filtro label {
+  margin-right: 10px;
+}
+
+.filtro select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+
+.producto h3 {
+  font-size: 1.3rem;
+}
+
+.producto button {
+  background-color: #ff9800;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carrito {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: left;
+  display: inline-block;
+  width: 300px;
+}
+
+.carrito button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carrito button.vaciar {
+  background-color: #dc3545;
+}
+
+.carrito button.finalizar {
+  background-color: #007bff;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
